@@ -1,0 +1,56 @@
+# Plugin description
+name: Sepd_ReKits
+version: 1.0
+description: A plugin for managing kits and regions.
+# Plugin author information
+author: Sepd
+author_email: your.email@example.com
+
+# Plugin main class
+main: dev.sepd.sepd_rekits.Sepd_ReKits
+
+# Dependencies (if any)
+api: 1.20.1
+api-version: 1.20
+depend: []
+
+# Commands provided by the plugin
+commands:
+  createkit:
+    description: Create a kit for a specific region.
+    usage: /createkit <regionName> <kitName>
+  deletekit:
+    description: Delete a kit from a specific region.
+    usage: /deletekit <regionName> <kitName>
+  deleteregion:
+    description: Delete a region.
+    usage: /deleteregion <regionName>
+  rekit:
+    description: Main command for managing kits and regions.
+    usage: /rekit [args]
+    aliases:
+      - rek
+  getwand:
+    description: Receive the wand item for region selection.
+    usage: /getwand
+  createregion:
+    description: Create a new region.
+    usage: /createregion <regionName>
+  selectkit:
+    description: Select a kit for a specific region.
+    usage: /selectkit <regionName> <kitName>
+  reloadconfig:
+    description: Reload the plugin configuration.
+    usage: /reloadconfig
+  setoffhand:
+    description: Set the off-hand item for a kit.
+    usage: /setoffhand item <kitName>
+  setarmor:
+    description: Set the armor items for a kit.
+    usage: /setarmor <kitName>
+
+# Events registered by the plugin
+# Specify any events your plugin listens to
+# Example:
+# events:
+#   - some.event.Listener
