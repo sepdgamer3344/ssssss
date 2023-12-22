@@ -1,0 +1,20 @@
+regions:
+  spawn:
+    default-kit:
+      mainInventory:
+        - material: IRON_SWORD
+          amount: 1
+        - material: GOLDEN_APPLE
+          amount: 1
+      offhandItem:
+        material: BLAZE_ROD
+        amount: 1
+      armor:
+        - material: LEATHER_HELMET
+          amount: 1
+        - material: LEATHER_CHESTPLATE
+          amount: 1
+        - material: LEATHER_LEGGINGS
+          amount: 1
+        - material: LEATHER_BOOTS
+          amount: 1

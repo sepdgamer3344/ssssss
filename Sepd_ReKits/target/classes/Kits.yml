@@ -1,0 +1,23 @@
+# kits.yml
+
+regions:
+  example_region: &example_region
+    world: world
+    x: 0
+    y: 64
+    z: 0
+  # Add more regions as needed
+
+kits:
+  example_region:
+    example_kit:
+      mainInventory:
+        - DIAMOND_SWORD
+        - IRON_CHESTPLATE
+      offhandItem: DIAMOND_AXE
+      armor:
+        - IRON_BOOTS
+        - IRON_LEGGINGS
+        - IRON_CHESTPLATE
+        - IRON_HELMET
+  # Add more kits for different regions as needed

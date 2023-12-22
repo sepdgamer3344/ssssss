@@ -1,0 +1,33 @@
+name: Sepd_ReKits
+version: 1.0
+description: A custom plugin for managing kits and regions
+author: Sepd_ReKits
+api: 1.20.1
+api-version: 1.20
+main: dev.sepd.sepd_rekits.Sepd_ReKits
+
+commands:
+  rekit:
+    description: Main command for the plugin
+    usage: /rekit [subcommand]
+
+  createkit:
+    description: Create a new kit for a region
+    usage: /rekit createkit <regionName> <kitName>
+
+  deletekit:
+    description: Delete a kit from a region
+    usage: /rekit deletekit <regionName> <kitName>
+
+  deleteregion:
+    description: Delete a region
+    usage: /rekit deleteregion <regionName>
+
+  rekitreload:
+    description: Reload the plugin's configurations
+    usage: /rekit rekitreload
+
+permissions:
+  example.permission: # Add your permissions here
+    description: Permission description
+
